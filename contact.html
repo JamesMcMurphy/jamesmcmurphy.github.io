@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Source+Sans+3:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>James McMurphy</title>
+  </head>
+
+  <body>
+    <nav>
+      <p>James McMurphy</p>
+      <p>
+        <a href="index.html">About James McMurphy</a>
+      </p>
+    </nav>
+
+    <main class="one-col">
+      <header>
+        <h1>James McMurphy</h1>
+
+        <p class="tagline">Send me a message and I will get back to you.</p>
+
+        <p class="address">
+          8975 Moor Park Run, Duluth, GA 30097 &nbsp;|&nbsp; 7707315242
+          &nbsp;|&nbsp;
+          <a href="mailto:jamesrmcmurphy@gmail.com">jamesrmcmurphy@gmail.com</a>
+        </p>
+
+        <hr />
+      </header>
+
+      <section>
+        <h2>Send a Message</h2>
+
+        <form method="POST" action="https://formsubmit.co/jamesrmcmurphy@gmail.com">
+          <div>
+            <label for="name">Name</label><br />
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div>
+            <label for="email">Email</label><br />
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div>
+            <label for="message">Message</label><br />
+            <textarea id="message" name="message" rows="6"></textarea>
+          </div>
+
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <a href="index.html">James McMurphy</a></p>
+    </footer>
+  </body>
+</html>
